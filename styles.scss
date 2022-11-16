@@ -71,9 +71,13 @@ body {
     text-align: center;
 }
 
+.change:hover{
+    color: red;
+}
+
 .proceed {
     
-background-color: $button_color; /* Green */
+background-color: $button_color;
   border: none;
   color: $very;
   padding: 15px 70px;
@@ -89,6 +93,10 @@ background-color: $button_color; /* Green */
   box-shadow: 8px 8px 11px 1px $berry;
 
   margin-bottom: 30px;
+}
+
+.proceed:hover{
+    background-color:hsl(245, 75%, 65%);
 }
 
 
@@ -138,5 +146,9 @@ background-color: $button_color; /* Green */
         color:$berry;
         font-family: "red hat display", sans-serif;
         font-weight: 700;
+    }
+
+    a:hover{
+        color: $title;
     }
 }

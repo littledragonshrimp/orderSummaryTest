@@ -58,8 +58,12 @@ body {
   text-align: center;
 }
 
+.change:hover {
+  color: red;
+}
+
 .proceed {
-  background-color: hsl(245deg, 75%, 52%); /* Green */
+  background-color: hsl(245deg, 75%, 52%);
   border: none;
   color: hsl(225deg, 100%, 98%);
   padding: 15px 70px;
@@ -71,6 +75,10 @@ body {
   font-family: "red hat display", sans-serif;
   box-shadow: 8px 8px 11px 1px hsl(224deg, 23%, 55%);
   margin-bottom: 30px;
+}
+
+.proceed:hover {
+  background-color: hsl(245deg, 75%, 65%);
 }
 
 .checkout-details {
@@ -118,4 +126,7 @@ body {
   color: hsl(224deg, 23%, 55%);
   font-family: "red hat display", sans-serif;
   font-weight: 700;
+}
+.cancel-order a:hover {
+  color: hsl(223deg, 47%, 23%);
 }/*# sourceMappingURL=styles.css.map */
