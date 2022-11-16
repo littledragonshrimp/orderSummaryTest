@@ -129,4 +129,12 @@ body {
 }
 .cancel-order a:hover {
   color: hsl(223deg, 47%, 23%);
+}
+
+.attribution {
+  margin-top: 5%;
+  color: hsl(224deg, 23%, 55%);
+  display: block;
+  justify-content: center;
+  align-items: flex-end;
 }/*# sourceMappingURL=styles.css.map */
