@@ -1,1 +1,96 @@
-/*# sourceMappingURL=styles.css.map */
+.background-image {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 2;
+}
+
+.order-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -25%;
+  width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
+.order-body h1 {
+  color: hsl(223deg, 47%, 23%);
+  font-family: "red hat display", sans-serif;
+  font-weight: 700;
+}
+
+.top-image img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px 8px 0 0;
+}
+
+body {
+  background-color: hsl(225deg, 100%, 94%);
+  color: red;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  margin-top: 1.5em;
+}
+
+.change {
+  background-color: inherit;
+  border: none;
+  text-align: center;
+}
+
+.checkout-details {
+  background-color: hsl(225deg, 100%, 98%);
+  color: hsl(224deg, 23%, 55%);
+  display: flex;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  flex-direction: row;
+  width: 70%;
+  border-radius: 8px;
+}
+.checkout-details .left {
+  margin: auto;
+}
+.checkout-details .middle {
+  margin-right: 4em;
+  line-height: 40%;
+}
+.checkout-details .right {
+  margin: auto;
+}
+
+.checkout-details a {
+  color: hsl(223deg, 47%, 23%);
+}
+
+.checkout-details .annual-plan {
+  color: hsl(223deg, 47%, 23%);
+}
+
+.checkout-text {
+  margin-left: 3em;
+  margin-right: 3em;
+  text-align: center;
+  line-height: 150%;
+}/*# sourceMappingURL=styles.css.map */
