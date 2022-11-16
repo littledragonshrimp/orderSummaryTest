@@ -14,7 +14,7 @@ $title: hsl(223, 47%, 23%);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   flex: 2;
+   
   }
 
 .order-body {
@@ -29,9 +29,10 @@ $title: hsl(223, 47%, 23%);
     width: 30%;
     
     background-color: white;
-    
+
+    position: relative;
  
-    border-radius: 8px;
+    border-radius: 12px;
        
     padding-left: 9px;
     padding-right: 9px;
@@ -39,7 +40,7 @@ $title: hsl(223, 47%, 23%);
 
 .order-body h1{
     color: $title;
-    font-family: "red hat display", sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: 700;
     
 }
@@ -48,12 +49,11 @@ $title: hsl(223, 47%, 23%);
     display: block;
     margin: 0;
     padding: 0;
-    border-radius: 8px 8px 0 0;
+    border-radius: 12px 12px 0 0;
 }
 
 body {
     background-color: $background;
-    color: red;
     font-family: "Red Hat Display", sans-serif;
     font-size: 16px;
     display: flex;
@@ -71,10 +71,26 @@ body {
     text-align: center;
 }
 
-.change a{
-   
+.proceed {
+    
+background-color: $button_color; /* Green */
+  border: none;
+  color: $very;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  border-radius: 8px;
+
+  font-family: "red hat display", sans-serif;
+
+  box-shadow: 8px 8px 11px 1px $berry;
+
+  margin-bottom: 30px;
 }
-   
+
 
 .checkout-details{
     background-color: $very;
@@ -93,7 +109,9 @@ body {
         margin-right:4em;
         line-height: 40%;
     }
-    .right{ margin: auto;}
+    .right{ 
+        margin-right: auto;
+    }
 }
 
 .checkout-details a{
@@ -109,4 +127,16 @@ body {
     margin-right: 3em;
     text-align: center;
     line-height: 150%;
+    color: $berry;
+}
+
+.cancel-order{
+    margin-bottom: 40px;
+
+    a {
+        text-decoration: none;
+        color:$berry;
+        font-family: "red hat display", sans-serif;
+        font-weight: 700;
+    }
 }
