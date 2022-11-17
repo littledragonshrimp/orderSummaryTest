@@ -56,10 +56,13 @@ body {
   background-color: inherit;
   border: none;
   text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+  color: hsl(245deg, 75%, 52%);
 }
 
 .change:hover {
-  color: red;
+  color: hsl(224deg, 23%, 55%);
 }
 
 .proceed {
@@ -99,6 +102,8 @@ body {
   line-height: 40%;
 }
 .checkout-details .right {
+  margin-top: auto;
+  margin-bottom: auto;
   margin-right: auto;
 }
 

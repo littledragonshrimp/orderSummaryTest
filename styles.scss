@@ -69,10 +69,14 @@ body {
     background-color: inherit;
     border: none;
     text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+    color:hsl(245, 75%, 52%);
+    
 }
 
 .change:hover{
-    color: red;
+    color:hsl(224, 23%, 55%);
 }
 
 .proceed {
@@ -118,6 +122,8 @@ background-color: $button_color;
         line-height: 40%;
     }
     .right{ 
+        margin-top: auto;
+        margin-bottom: auto;
         margin-right: auto;
     }
 }
