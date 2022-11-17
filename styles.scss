@@ -4,6 +4,23 @@ $very: hsl(225, 100%, 98%);
 $berry: hsl(224, 23%, 55%);
 $title: hsl(223, 47%, 23%);
 
+@media screen and (max-width: 375px){
+    .background-image{
+        display:none;
+    }
+    .mobile-image{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        place-content: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:375px){
 .background-image {
    height: 100%;
    width: 100%;
@@ -14,9 +31,11 @@ $title: hsl(223, 47%, 23%);
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   
   }
-
+.mobile-image{
+    display: none;
+}
+}
 .order-body {
     display: flex;
     justify-content: center;
